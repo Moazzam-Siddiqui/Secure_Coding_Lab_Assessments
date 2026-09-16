@@ -1,7 +1,7 @@
 #include <stdlib.h>
 
 /*
- * Experiment 14: Intentionally vulnerable examples.
+ * Experiment 2.2: Intentionally vulnerable examples.
  *
  * 1. Unchecked malloc return value / NULL-pointer dereference.
  *    Impact: denial of service; unsafe failure handling can cause undefined behavior.

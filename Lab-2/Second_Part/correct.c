@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /*
- * Experiment 14: Correct memory-management patterns.
+ * Experiment 2.2: Correct memory-management patterns.
  * - Check every allocation result before dereferencing it.
  * - Set a pointer to NULL immediately after free.
  * - Release each allocation exactly once.
