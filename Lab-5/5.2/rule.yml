@@ -1,0 +1,11 @@
+rules:
+  - id: python-user-input-file-open
+    languages:
+      - python
+    severity: ERROR
+    message: "User-controlled filename is passed to open() without path validation."
+    patterns:
+      - pattern: open($FILE, ...)
+      - pattern-inside: |
+          $FILE = input(...)
+          ...
